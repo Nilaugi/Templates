@@ -1,0 +1,58 @@
+$breakpoints: (
+  s-xs: 375px,
+  s: 480px,
+  s-xl: 576px,
+  t-xs: 768px,
+  t-s: 800px,
+  t: 992px,
+  t-xl: 1024px,
+  d-xs: 1200px,
+  d: 1440px,
+  d-xl: 1920px,
+);
+$transparent: #0000;
+
+$white: #fff;
+$black: #000;
+$light: #f4f3f0;
+$light-opacity: #f4f3f060;
+$gray: gray;
+$white-opacity-title: hsla(0, 0%, 100%, 0.7);
+$white-opacity-content: hsla(0, 0%, 100%, 0.5);
+$error-color: red;
+
+$primary-color: #46b7ab; // #63D471
+$secondary-color: #0f4f49;
+
+$error-color: red;
+
+$error: #f37878;
+
+$shadow: rgba(0, 0, 0, 0.15);
+
+$primary-font-regular: "LinLibertine-Regular";
+$primary-font-regular-path: "../../public/fonts/LibreBaskerville-Regular.ttf";
+
+$primary-font-bold: "LinLibertine-Bold";
+$primary-font-bold-path: "../../public/fonts/LibreBaskerville-Bold.ttf";
+
+$primary-font-italic: "LinLibertine-Italic";
+$primary-font-italic-path: "../../public/fonts/LibreBaskerville-Italic.ttf";
+
+@font-face {
+  font-family: $primary-font-regular;
+  src: url($primary-font-regular-path)
+    format("truetype");
+}
+
+@font-face {
+  font-family: $primary-font-bold;
+  src: url($primary-font-bold-path)
+    format("truetype");
+}
+
+@font-face {
+  font-family: $primary-font-italic;
+  src: url($primary-font-italic-path)
+    format("truetype");
+}
